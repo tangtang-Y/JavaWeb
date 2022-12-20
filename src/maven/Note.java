@@ -78,14 +78,20 @@ package maven;
 *-----------------------------------------------------------------------------------------------------
 *
 * 三、Maven的常用命令
-* 1.compile 编译
-* 2.clean 清理
-* 3.test 测试
-* 4.package 打包
-* 5.install 安装
+* 1.compile 编译 (cmd: mvn compile)-->生成target目录
+* 2.clean 清理(cmd: mvn compile) --> 删除target目录
+* 3.test 测试 (cmd : mvn test) --> 执行测试文件
+* 4.package 打包 (cmd : mvn package)--> 生成jar包（存放字节码文件）
+* 5.install 安装 (cmd : mvn install) --> 安装jar包到本地仓库
 *
+* Maven生命周期
+* 1.Maven构建项目生命周期描述的是一次构建过程经历了多少个事件
+* 2.Maven对项目构建的生命周期划分为3套
+*   （1）clean：清理工作
+*   （2）default：核心工作，如编译，测试，打包等
+*   （3）site 产生报告，发布站点等（不常用）
 *
-*
+*  注意：同一生命周期内，执行后边的命令，前面的命令会自动执行
 *
 * */
 
