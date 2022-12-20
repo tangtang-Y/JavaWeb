@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc2f9196-5595-4f93-a8ab-6967928d66cf" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/test/ConnTest.java" afterDir="false" />
+    <list default="true" id="dc2f9196-5595-4f93-a8ab-6967928d66cf" name="变更" comment="2022.12.19">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/practice/caseDemo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/practice/caseDemo/PracticeDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/practice/inject/InjectDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/practice/inject/InjectDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maven/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/Note.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "D:/workspace/JavaWeb/lib",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
@@ -53,7 +57,7 @@
       <recent name="D:\workspace\JavaWeb\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ConnTest">
+  <component name="RunManager" selected="应用程序.druid.Note">
     <configuration name="ConnTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.test.ConnTest" />
       <module name="JavaWeb" />
@@ -67,12 +71,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.Note" />
+    <configuration name="InjectDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.practice.inject.InjectDemo01" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.practice.inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.practice.inject.InjectDemo02" />
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.practice.inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.practice.caseDemo.PracticeDemo01" />
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.practice.caseDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="druid.Note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="druid.Note" />
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="druid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,8 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.druid.Note" />
+        <item itemvalue="应用程序.InjectDemo02" />
+        <item itemvalue="应用程序.InjectDemo01" />
+        <item itemvalue="应用程序.PracticeDemo01" />
         <item itemvalue="应用程序.ConnTest" />
-        <item itemvalue="应用程序.Note" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +142,18 @@
       <option name="presentableId" value="Default" />
       <updated>1671160671322</updated>
     </task>
+    <task id="LOCAL-00001" summary="2022.12.19">
+      <created>1671442076347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671442076347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022.12.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.12.19" />
   </component>
 </project>

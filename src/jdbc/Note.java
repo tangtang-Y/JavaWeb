@@ -55,7 +55,60 @@ package jdbc;
 *
 *
 * 4.ResultSet
+* 结果集对象
+*
+* next();
+* getXxx(参数)
+*
+* 使用格式：
+* while(rs.next()){
+*
+*  rs.getXxx();
+*
+*
+* }
+*
+*
 * 5.PreparedStatement
+* 作用：预编译SQL语句并执行，预防SQL注入问题
+*
+* SQL注入(Inject)：
+* SQL注入是通过操作输入来修改事先定义好的SQL语句，用以达到执行代码对服务器进行攻击的方法。
+*
+* PreparedStatement的好处：
+* 1.预编译SQL：性能更高
+* 2.防止SQL注入：将敏感字符进行转义
+*
+* PreparedStatement预编译功能开启：useServerPrepStmts=true;
+*
+* 配置MySQL执行日志（在my.ini定义）:
+* log-output=FILE
+* general-log=1
+* general_log_file="D:\mysql.log"
+* slow-query-log=1
+* slow_query_log_file="D:\mysql_slow.log"
+* long_query_time=2
+*
+* PreparedStatement原理：
+* 1.在获取PreparedStatement对象时，将SQL语句发送给MySQL服务器进行检查，编译（这些步骤很耗时）
+* 2.执行时就不需要再进行这些步骤
+* 3.如果SQL模板一样，则只需要进行一次检查、编译
+*
+*
+*
+*
+*
+*
+*
+*
+* ---------------------------------------------------------------------------------------0
+*
+* 知识点补充:
+* jar包的启动方式
+*
+* 在命令行输入 java -jar
+*
+*
 *
 *
 *
@@ -64,7 +117,7 @@ package jdbc;
 
 import java.sql.*;
 
-//@SuppressWarnings("all")
+@SuppressWarnings("all")
 public class Note {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
