@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc2f9196-5595-4f93-a8ab-6967928d66cf" name="变更" comment="2022.12.20">
-      <change afterPath="$PROJECT_DIR$/src/maven/Maven仓库.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maven/maven生命周期.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maven/依赖范围.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mybatis/Note.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maven/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maven/Note.java" afterDir="false" />
     </list>
@@ -25,6 +25,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="H:/maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="H:\maven\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2IyjMSNM7vCR7VilBARIJLt6Tl1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "D:/workspace/JavaWeb/src/maven",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -148,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671519947514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022.12.20">
+      <created>1671520833427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671520833427</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
