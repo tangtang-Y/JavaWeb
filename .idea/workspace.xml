@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc2f9196-5595-4f93-a8ab-6967928d66cf" name="变更" comment="2022.12.20">
-      <change afterPath="$PROJECT_DIR$/src/maven/依赖范围.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mybatis/Note.java" afterDir="false" />
+    <list default="true" id="dc2f9196-5595-4f93-a8ab-6967928d66cf" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maven/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maven/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mybatis/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybatis/Note.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="H:/maven/apache-maven-3.8.6" />
-        <option name="userSettingsFile" value="H:\maven\apache-maven-3.8.6\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -48,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "D:/workspace/JavaWeb/src/maven",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
